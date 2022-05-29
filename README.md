@@ -1,5 +1,5 @@
 # 教材
-ネクストドアのJava入門講座（YouTube）
+ネクストドアのJava入門講座（YouTube）講師：菅原智先生
 # Javaとは？
 
 
