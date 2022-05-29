@@ -10,6 +10,6 @@ class Array {
         System.out.println(name[0] + "さん" + score[0] + "点");
         System.out.println(name[1] + "さん" + score[1] + "点");
         System.out.println(name[2] + "さん" + score[2] + "点");
-        System.out.println("受験者数:" + score.length + "名");
+        System.out.println("受験者数:" + score.length + "名");//.lengthで要素数を表示
     }
 }
