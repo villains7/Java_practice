@@ -3,6 +3,7 @@ class Student {//Studentという設計図
     String name;
     int engScore;
     int mathScore;
+    //3つの情報を持っている
 
     //メソッド（操作）
     void display (){
