@@ -52,3 +52,8 @@ for(式１:条件式:式２)…式１はカウンタ変数の準備をするこ�
 
 コンパイルする場合はメインメソッドの入ったファイルをコンパイルする。
 
+## 標準入力
+Scanner scan = new Scanner(System.in);
+        String str1 = scan.next();
+Scannerを使う。nextだと空白までしか認識しないので、行を読み込むときはnexyLineを使う。
+
