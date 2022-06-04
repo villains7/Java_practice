@@ -1,7 +1,7 @@
 public class Student5 {
     private String name;
     private int score;
-    //privateを設定すれば大人数の開発でも思い通りにシステムが作れる。
+    //privateを設定すれば大人数の開発でも思い通りにシステムが作れる。ほかのクラスでは使えないから、修正するときも楽。
 
     public Student5(String n) {
         name = n;
