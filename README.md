@@ -76,6 +76,9 @@ for(式１:条件式:式２)…式１はカウンタ変数の準備をするこ�
 * コンストラクタだけは継承しない
 * class Student extends Person{} 
 
+
+
+
 ## 標準入力
 Scanner scan = new Scanner(System.in);
         String str1 = scan.next();
