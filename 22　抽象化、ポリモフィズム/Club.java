@@ -9,5 +9,5 @@ public abstract class Club {
         System.out.println("部活動 :" + name);
     }
 
-    public abstract void practice();
+    public abstract void practice();//メソッドの定義のみの抽象メソッド。クラスとメソッドの前にabstractがある。
 }
