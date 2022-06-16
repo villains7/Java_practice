@@ -12,6 +12,6 @@ public class Student6 {
     }
 
     public void practice() {
-        club.practice();
+        club.practice();//クラブのメソッドを呼び出している
     }
 }
