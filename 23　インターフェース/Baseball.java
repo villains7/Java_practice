@@ -5,7 +5,7 @@ public class Baseball implements Englishable {
         System.out.println("バッティング");
     }
     public void displayEng() {
-        System.out.println(English.LANGUAGE);
+        System.out.println(Englishable.LANGUAGE);
         System.out.println("catch ball");
         System.out.println("seat knock");
         System.out.println("batting practice");
