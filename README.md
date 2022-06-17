@@ -121,6 +121,10 @@ for(式１:条件式:式２)…式１はカウンタ変数の準備をするこ�
 2. パッケージの利用。インポートしてパッケージ名を省略する。import A.クラス名→複数パッケージがある場合は`import pack.*`でもおけ
 3. 最後にクラス書く。package　→ import　→ classの順番
 
+### 例外
+実行時に発生するエラーを例外という。例外が発生すると例外クラスのオブジェクトが自動生成される。
+Throwableクラスの中にErrorクラス（システムが原因）、Exceptionクラス（プログラムが原因）がある。さらにExのなかにはRuntimeException（プログラムのどこでも発生しうるエラーのこと）がある。
+
 ## 標準入力
 Scanner scan = new Scanner(System.in);
         String str1 = scan.next();
