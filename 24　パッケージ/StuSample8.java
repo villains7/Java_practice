@@ -1,4 +1,4 @@
-import pack.Student8;
+import pack.Student8;//パッケージ名.クラス名
 
 public class StuSample8 {
     public static void main(String[] args){
