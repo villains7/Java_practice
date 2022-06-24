@@ -148,6 +148,8 @@ try{<br>
 ## API
 ### Objectクラスとは
 すべてのクラスのルートとなるクラス→　すべてのクラスはObjectクラスを継承している。
+### String クラス
+String s1 = "Java";と書くのが正しい。これを使えば再利用が可能だから。文字列の比較にはequals()を使うこと。
 
 ## 標準入力
 Scanner scan = new Scanner(System.in);
