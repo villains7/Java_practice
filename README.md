@@ -145,6 +145,10 @@ try{<br>
 [後処理]<br>
 }<br>
 
+## API
+### Objectクラスとは
+すべてのクラスのルートとなるクラス→　すべてのクラスはObjectクラスを継承している。
+
 ## 標準入力
 Scanner scan = new Scanner(System.in);
         String str1 = scan.next();
