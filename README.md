@@ -156,5 +156,10 @@ Scanner scan = new Scanner(System.in);
         String str1 = scan.next();
 Scannerを使う。nextだと空白までしか認識しないので、行を読み込むときはnexyLineを使う。
 
+## Mathクラス
+数値処理を実行するためのメソッドがまとめられたクラス
+
+
+
 
 
