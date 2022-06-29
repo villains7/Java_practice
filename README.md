@@ -147,7 +147,7 @@ try{<br>
 ## API
 ### Objectクラスとは
 すべてのクラスのルートとなるクラス→　すべてのクラスはObjectクラスを継承している。
-### String クラス
+### String クラス（java.langパッケージに含まれるためimport不要）
 String s1 = "Java";と書くのが正しい。これを使えば再利用が可能だからメモリ効率がいい。文字列の比較にはequals()を使うこと。これだと、文字列（中身）の比較ができる。==だと、アドレスの比較になってしまう
 #### メソッド
 * int length() 文字列の長さを返す。
@@ -155,6 +155,8 @@ String s1 = "Java";と書くのが正しい。これを使えば再利用が可�
 * boolean contains(CharSequence s)引数で指定された文字列を含むときにtrueを返す。大文字と小文字を区別する。
 * String replace（CharSequence　target, CharSequence replacement）第一引数で指定した文字列が内部に含まれる場合はその文字列を第二引数で指定した文字列に置換した結果を返す。
 * String[]split(String　regex)引数で指定された正規表現に一致する位置で文字列を分割し、分割した結果を文字列の配列で返す。
+### Mathクラス（java.langパッケージに含まれるためimport不要）
+クラスメソッドなのでインスタンスを生成せずに「Math.メソッド名（引数）」と書いて呼び出せる。MathクラスにはメソッドだけでなくE（自然対数の底）とPI（円周率）という定数が宣言されている。
 
 
 
