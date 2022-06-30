@@ -167,6 +167,8 @@ Scanner scan = new Scanner(System.in);
         String str1 = scan.next();
 Scannerを使う。nextだと空白までしか認識しないので、行を読み込むときはnexyLineを使う
 バッファにデータを蓄えておき、いっぱいになったら、ファイルライターがファイルに書き込む。
+### コマンドライン引数とは
+javaの実行時に入力する値のこと
 
 ## Mathクラス
 数値処理を実行するためのメソッドがまとめられたクラス
